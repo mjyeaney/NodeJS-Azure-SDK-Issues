@@ -25,7 +25,7 @@ Note that `TENANT_ID`, `CLIENT_ID`, and `CLIENT_SECRET` will be specific to the 
 
 ### Building
 
-To build, run the following command:
+This repo is build leveraging tasks and build steps that call standard *NIX utilities, and on Windows this is enabled via WSL. To build, run the following command:
 
 `npm run build`
 
