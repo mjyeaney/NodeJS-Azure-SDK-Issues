@@ -1,0 +1,23 @@
+{
+  "name": "nodesdk-issues",
+  "version": "1.0.0",
+  "description": "Repro example for issues found while testing the Azure NodeJS SDK.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build": "npm run clean && npm run compile",
+    "compile": "echo -n 'Compiling...' && tsc && echo 'Done!'",
+    "test": "cd ./dist && node main.js"
+  },
+  "author": "Mike Yeaney",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/uuid": "^3.4.4",
+    "azure-arm-containerinstance": "^5.4.0",
+    "azure-arm-resource": "^7.3.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}
