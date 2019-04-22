@@ -1,6 +1,6 @@
 ## Azure NodeJS SDK Issues Repro
 
-This repo is setup as a repro of an issue I'm currently having with overlapping async (long-running) ARM calls.
+This repo is setup as a repro of an issue I'm currently having with overlapping async (long-running) ARM calls. This issue is open [here](https://github.com/Azure/azure-sdk-for-node/issues/5072).
 
 ### Configuration
 
