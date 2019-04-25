@@ -7,7 +7,7 @@
     "clean": "rm -rf ./dist/*",
     "build": "npm run clean && npm run compile",
     "compile": "echo -n 'Compiling...' && tsc && echo 'Done!'",
-    "test": "cd ./dist && node main.js"
+    "test": "cp .env ./dist && cd ./dist && node main.js"
   },
   "author": "Mike Yeaney",
   "license": "MIT",
